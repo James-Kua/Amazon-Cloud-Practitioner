@@ -1,3 +1,8 @@
+---
+title: "ACCP"
+---
+
+
 # AWS Certified Cloud Practitioner (ACCP) Exam Notes
 
 This is my notes regarding ACCP exam which is completed gradually when I was studing the exam objectives.
@@ -16,137 +21,18 @@ The following table lists the main content domains and their weightings.<br>
 
 </div>
 
-* * *
-### Table Of Contents
-- [AWS Certified Cloud Practitioner (ACCP) Exam Notes](#aws-certified-cloud-practitioner-accp-exam-notes)
-    - [Table Of Contents](#table-of-contents)
-    - [Amazon AppStream 2.0](#amazon-appstream-20)
-    - [Amazon Aurora](#amazon-aurora)
-    - [AWS Artifact](#aws-artifact)
-    - [Amazon Athena](#amazon-athena)
-    - [AWS Auto Scaling Group](#aws-auto-scaling-group)
-    - [AWS Budgets](#aws-budgets)
-    - [AWS CloudFormation](#aws-cloudformation)
-    - [Amazon CloudFront](#amazon-cloudfront)
-    - [AWS Cloud9](#aws-cloud9)
-    - [AWS CloudHSM](#aws-cloudhsm)
-    - [AWS CloudTrail](#aws-cloudtrail)
-    - [AWS Cloudwatch](#aws-cloudwatch)
-    - [AWS CodeBuild](#aws-codebuild)
-    - [AWS CodeStar](#aws-codestar)
-    - [AWS CodeGuru](#aws-codeguru)
-    - [AWS CodeCommit](#aws-codecommit)
-    - [AWS CodeDeploy](#aws-codedeploy)
-    - [AWS CodePipeline](#aws-codepipeline)
-    - [AWS Cognito](#aws-cognito)
-    - [Amazon Comprehend](#amazon-comprehend)
-    - [AWS Config](#aws-config)
-    - [AWS Cost Explorer](#aws-cost-explorer)
-    - [AWS Data Sync](#aws-data-sync)
-    - [Amazon Detective](#amazon-detective)
-    - [Amazon DevPay](#amazon-devpay)
-    - [AWS Device Farm](#aws-device-farm)
-    - [AWS Direct Connect](#aws-direct-connect)
-    - [Amazon DynamoDB](#amazon-dynamodb)
-    - [AWS Database SQL type](#aws-database-sql-type)
-    - [Amazon ElastiCache](#amazon-elasticache)
-    - [Amazon Elastic Container Service for Kubernetes (EKS)](#amazon-elastic-container-service-for-kubernetes-eks)
-    - [Amazon Elastic Container Service (ECS)](#amazon-elastic-container-service-ecs)
-    - [Amazon Elastic Filesystem](#amazon-elastic-filesystem)
-    - [Amazon Elastic Transcoder](#amazon-elastic-transcoder)
-    - [Amazon Elasticsearch Service](#amazon-elasticsearch-service)
-    - [AWS EBS](#aws-ebs)
-    - [Amazon EBS volumes types](#amazon-ebs-volumes-types)
-    - [Amazon EC2](#amazon-ec2)
-    - [Amazon ELB](#amazon-elb)
-    - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
-    - [Amazon EventBridge](#amazon-eventbridge)
-    - [AWS Fargate](#aws-fargate)
-    - [AWS Glacier](#aws-glacier)
-    - [AWS Glue](#aws-glue)
-    - [Amazon Global Accelerator](#amazon-global-accelerator)
-    - [AWS Ground Station](#aws-ground-station)
-    - [Amazon GuardDuty](#amazon-guardduty)
-    - [Amazon IAM](#amazon-iam)
-    - [AWS Inspector](#aws-inspector)
-    - [AWS Internet Gateway](#aws-internet-gateway)
-    - [Amazon Kendra](#amazon-kendra)
-    - [Amazon Kinesis](#amazon-kinesis)
-    - [AWS Lambda](#aws-lambda)
-    - [AWS Lex](#aws-lex)
-    - [Amazon Lightsail](#amazon-lightsail)
-    - [Amazon Load Balancers](#amazon-load-balancers)
-    - [Amazon Lightsail](#amazon-lightsail-1)
-    - [Amazon Macie](#amazon-macie)
-    - [Amazon Machine Image (AMI)](#amazon-machine-image-ami)
-    - [AWS Managed Services](#aws-managed-services)
-    - [Amazon Neptune](#amazon-neptune)
-    - [AWS Network Firewall](#aws-network-firewall)
-    - [AWS Organization](#aws-organization)
-    - [AWS Outposts](#aws-outposts)
-    - [Amazon Polly](#amazon-polly)
-    - [AWS Pricing Policies](#aws-pricing-policies)
-    - [Amazon Personalize](#amazon-personalize)
-    - [AWS Personal Health Dashboard](#aws-personal-health-dashboard)
-    - [Amazon QuickSight](#amazon-quicksight)
-    - [Amazon RDS](#amazon-rds)
-    - [AWS Rekognition](#aws-rekognition)
-    - [Amazon Redshift](#amazon-redshift)
-    - [Amazon Route 53](#amazon-route-53)
-    - [Amazon S3](#amazon-s3)
-    - [AWS Security Groups](#aws-security-groups)
-    - [AWS Security Hub](#aws-security-hub)
-    - [AWS Scalability](#aws-scalability)
-    - [Amazon SNS](#amazon-sns)
-    - [Amazon Simple Queue Service (SQS)](#amazon-simple-queue-service-sqs)
-    - [Amazon SageMaker](#amazon-sagemaker)
-    - [Amazon Simple Notification Service (SNS)](#amazon-simple-notification-service-sns)
-    - [AWS Support Plans](#aws-support-plans)
-    - [AWS Shared Responsibility Model](#aws-shared-responsibility-model)
-    - [AWS Shield](#aws-shield)
-    - [AWS Storage Gateway Volume Gateway](#aws-storage-gateway-volume-gateway)
-    - [AWS Step Functions](#aws-step-functions)
-    - [Amazon Simple Workflow Service (SWF)](#amazon-simple-workflow-service-swf)
-    - [Amazon Security Token Service (STS)](#amazon-security-token-service-sts)
-    - [AWS Server Migration Service (SMS)](#aws-server-migration-service-sms)
-    - [AWS Service Catalog](#aws-service-catalog)
-    - [Amazon S3 Transfer Acceleration](#amazon-s3-transfer-acceleration)
-    - [AWS Snowball](#aws-snowball)
-    - [AWS Snowball Edge](#aws-snowball-edge)
-    - [AWS Snowcone](#aws-snowcone)
-    - [Amazon Textract](#amazon-textract)
-    - [AWS Trusted Advisor](#aws-trusted-advisor)
-    - [AWS TCO Calculator](#aws-tco-calculator)
-    - [AWS WAF](#aws-waf)
-    - [Amazon Workspaces](#amazon-workspaces)
-    - [AWS X-Ray](#aws-x-ray)
-    - [Cloud Computing](#cloud-computing)
-    - [Virtual Private Gateway](#virtual-private-gateway)
-    - [VPC peering connection](#vpc-peering-connection)
-    - [Five design principles for performance efficiency in the cloud](#five-design-principles-for-performance-efficiency-in-the-cloud)
-    - [Five design principles for cost optimization in the cloud](#five-design-principles-for-cost-optimization-in-the-cloud)
-    - [Five design principles for reliability in the cloud](#five-design-principles-for-reliability-in-the-cloud)
-    - [Six design principles for security in the cloud](#six-design-principles-for-security-in-the-cloud)
-    - [Five pillars of the AWS Well-Architected Framework](#five-pillars-of-the-aws-well-architected-framework)
-    - [Six advantages of Amzon Cloud (Benefits)](#six-advantages-of-amzon-cloud-benefits)
-    - [Cloud Adoption Framework](#cloud-adoption-framework)
-    - [Notes](#notes)
-
-
 ***
 
 ### Amazon AppStream 2.0
 - AWS End User Computing (EUC) service that can be configured for SaaS application **streaming or delivery of virtual desktops with selective persistence.** 
 - When AppStream 2.0 is used for virtual desktops, saved files and application settings remain persistent between user sessions, and a fresh virtual desktop is assigned to the user every time they log on.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Aurora
 - Amazon Aurora provides built-in security, continuous backups, **serverless** compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services.
 - Hands-off capacity management, and **pay only for capacity consumed** with instantaneous and fine-grained scaling to save up to 90% of cost.
 - **MySQL and PostgreSQL** compatible **relational database engine** that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Artifact
 - It is a self-service audit artifact retrieval **portal** that provides our customers with on-demand access to AWS’ **compliance documentation** and AWS **agreements**.
@@ -155,13 +41,11 @@ The following table lists the main content domains and their weightings.<br>
 - It is your **go-to**, central resource for compliance-related information that matters to you.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Athena
 - For interactive analysis
 - Analyze data directly in **S3** and **Glacier** using <ins>standard SQL queries</ins>
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Auto Scaling Group
 - **Scaling Policy** determine when, if, and how the ASG scales and shrinks:
@@ -169,12 +53,10 @@ The following table lists the main content domains and their weightings.<br>
     - **cyclic**(scheduled scaling)
 - **Scaling Plan** define the triggers and when instances should be provisioned/de-provisioned
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Budgets
 - With AWS Budgets, set custom budgets to track your costs and usage, and respond quickly to alerts received from email or SNS notifications if you exceed your threshold.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CloudFormation
 - Allows you to model, provision, and manage AWS and third-party resources by treating **infrastructure as code.**
@@ -182,7 +64,6 @@ The following table lists the main content domains and their weightings.<br>
 - It's free of charge.
 - **Change sets** allow you to preview how proposed changes to a stack might impact your running resources
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon CloudFront
 - It has a **global scope**.
@@ -204,14 +85,12 @@ The following table lists the main content domains and their weightings.<br>
     - Elastic Load Balancer
     - Route 53
 
-**[⬆ Back to top](#table-of-contents)**
 
 
 ### AWS Cloud9
 - It's a cloud-based integrated development environment (**IDE**) that lets you write, run, and debug your code with just a **browser**.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CloudHSM
 - Is a **cloud-based hardware security module**(HSM) that allows you to easily <ins>add secure key storage</ins> and <ins>high performance crypto operations</ins> to your AWS applications.
@@ -219,7 +98,6 @@ The following table lists the main content domains and their weightings.<br>
 - CloudHSM is a managed service that **automates** <ins>time-consuming administrative tasks</ins>, such as hardware provisioning, **software patching**, **high availability**, and **backups**.
 - It uses a highly secure *hardware storage device* to **store encryption keys**
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CloudTrail
 - It is a web service that **records activity** made on your account and delivers <ins>log files</ins> to an **Amazon S3 bucket**.
@@ -235,22 +113,18 @@ The following table lists the main content domains and their weightings.<br>
 ### AWS Cloudwatch
 - Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in **automated dashboards** to streamline your infrastructure and application maintenance.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodeBuild
 - AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces ready-to-deploy software packages.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodeStar
 - It enables you to **quickly develop**, **build**, and **deploy** applications on AWS. AWS CodeStar provides a **unified user interface**, enabling you to easily manage your software development activities <ins>in one place</ins>.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodeGuru
 - CodeGuru Security uses ML and automated reasoning to precisely **identify code vulnerabilities**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodeCommit
 - **Git-based Version Control**: CodeCommit is based on the popular Git version control system, providing all the standard Git functionalities such as branch management, pull requests, code reviews, and merging.
@@ -266,33 +140,28 @@ The following table lists the main content domains and their weightings.<br>
 - **Regional Replication**: CodeCommit allows you to replicate your repositories across multiple AWS regions, providing increased availability and disaster recovery capabilities.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodeDeploy
 - It is a deployment service that **automates application deployments** to <ins>Amazon EC2 instances</ins>, <ins>on-premises instances</ins>, or <ins>serverless Lambda functions</ins>.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS CodePipeline
 - AWS CodePipeline is a **continuous delivery service** you can use to **model**, **visualize**, and **automate the steps** required to release your software. You can quickly model and configure the different stages of a software release process. CodePipeline automates the steps required to release your software changes continuously.
 - To orchestrate and **automate** the **various phases** involved in the release of application updates in-line with a predefined release model.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Cognito
 - Add user sign-up and sign-in features and control access to your web and mobile applications.
 - Provides an identity store that scales to millions of users, supports social and enterprise identity federation, and offers advanced security features to protect your consumers and business.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Comprehend
 - Amazon Comprehend is a natural language processing (**NLP**) service that uses **machine learning** to find insights and relationships in **text**.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Config
 -  It allows you to **automate the evaluation of recorded** configurations against desired configuration.
@@ -302,7 +171,6 @@ The following table lists the main content domains and their weightings.<br>
 -  It can be used to **retrive configuration** changes made to AWS resources causing *operational issues*.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Cost Explorer
 - It is a free tool that allows you to **view charts** of your costs. 
@@ -310,29 +178,24 @@ The following table lists the main content domains and their weightings.<br>
 - Cost Explorer can be used to **discover patterns** in how much you spend on AWS resources over time and to **identify cost problem** area.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Data Sync
 - It is a simple and fast way to **move huge amounts** of data (hundreds of terabytes) between **on-premise** storage to **S3**, **EFS**, **FSx**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Detective
 - It uses **machine learning** and **graph theory** capability collected log data to help you conduct faster and efficient security investigations.
 - Supports the analysis, investigation, and **identification of the root cause of security and suspicious activities** in an AWS account
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon DevPay
 - That makes it easy for budinesses to **sell applications** that are built in, or run on top of, *Amazon Web Services*.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Device Farm
 - It is an **app testing service** that lets you **test** and **interact** with your **Android**, **iOS**, and **web apps** on <ins>many devices</ins> at once, or reproduce issues on a device in real time
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Direct Connect
 - Benefits:
@@ -348,7 +211,6 @@ The following table lists the main content domains and their weightings.<br>
 - You can use **AWS Direct Connect Gateway** for connecting a company from their on-premises network to VPCs in **multiple regions** using **private connections**
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon DynamoDB
 - It's a fully managed **NoSQL** database service. (schema-less)
@@ -363,43 +225,36 @@ The following table lists the main content domains and their weightings.<br>
     - <ins>Compress</ins> large attribute values
     - Store large attributes as objects in <ins>Amazon S3</ins>.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Database SQL type
 - Amazon RDS
 - Amazon Aurora
 - Amazon RedShift
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon ElastiCache
 - Amazon ElastiCache is a fully managed, Redis- and Memcached-compatible service delivering real-time, cost-optimized performance for modern applications. 
 - ElastiCache scales to hundreds of millions of operations per second with microsecond response time, and offers enterprise-grade security and reliability.
 - Can be used to improve database performance
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Elastic Container Service for Kubernetes (EKS)
 - It's a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes **control plane**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Elastic Container Service (ECS)
 - It is used for running Docker containers on <ins>EC2 instances</ins>.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Elastic Filesystem
 - Amazon Elastic File System (EFS) automatically grows and shrinks as you add and remove files with no need for management or provisioning.
 - Automatically provides high available across multiple Availability Zones
 - Allows file sharing between multiple Amazon EC2 instances
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Elastic Transcoder
 - It **converts video and audio files** from their source format into versions that will **playback** on devices like smartphones, tablets and PC
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Elasticsearch Service
 - For **operational analytics** such as:
@@ -409,7 +264,6 @@ The following table lists the main content domains and their weightings.<br>
 - It allows you to search, explore, filter, aggrigate and visualize your data in near real-time.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS EBS
 - EBS Volume type
@@ -428,7 +282,6 @@ The following table lists the main content domains and their weightings.<br>
 - Extra **non-root** volumes are **not deleted** on termination by <ins>default</ins>.
 - Both non-root and root if launched from an **encrypted** AMI.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon EBS volumes types
 - **General purpose (gp2)**(SSD): provides a good balance of price to performance, is suitable for most workloads and can be used as a system boot volume.
@@ -437,7 +290,6 @@ The following table lists the main content domains and their weightings.<br>
 - **Throughput Optimized (st1)**: It is ideal for streaming workloads with fast throughput such as big data and data warehouses.
 
 
-**[⬆ Back to top](#table-of-contents)**
  
 ### Amazon EC2
 - EC2 pricing model:
@@ -458,7 +310,6 @@ The following table lists the main content domains and their weightings.<br>
 - with "**Inter-Region VPC Peering**" a company can connect their EC2 instances in <ins>*one region*</ins> with EC2 instances in <ins>*another region*</ins> using **private IP** addresses
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon ELB
 - A **listener** is a process that checks for connection requests, using the protocol and port that you configure.
@@ -472,26 +323,22 @@ The following table lists the main content domains and their weightings.<br>
     - Elasticity
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Elastic Beanstalk
 -  The **fastest** and **simplest** way to get web applications up and running on AWS.
 -  It is more of a **PaaS** service and is focused on <ins>web applications</ins> not infrastructure.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon EventBridge
 - Amazon EventBridge is an event-driven service that makes it easy to integrate your applications with data from a variety of sources. 
 - It can be used to **monitor AWS resources and third-party applications**, and respond to events in real-time.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Fargate
 - Fargate <ins>removes the need to provision and manage servers</ins>.
 - Amazon ECS is a container orchestration service used to provision and manage container clusters.
 - It's a **Serverless** offering (**no** EC2 instances)
 
-**[⬆ Back to top](#table-of-contents)**
 
 
 ### AWS Glacier
@@ -504,31 +351,26 @@ The following table lists the main content domains and their weightings.<br>
 - Only Amazon Glacier has **a minimum storage** duration charge of **90** days
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Glue
 - Is a fully managed **extract**, **transform**, and **load** (**ETL**) service that makes it easy for customers to prepare and load their <ins>data for analytics</ins>.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Global Accelerator
 - Global Accelerator provides two global static public IPs that **act as a fixed entry point to your application endpoints**, such as Application Load Balancers, Network Load Balancers, Amazon Elastic Compute Cloud (EC2) instances, and elastic IPs.
 -  Users can access your application endpoints through static IP addresses to **enjoy deterministic routing independent of DNS**.
 - You are asked to **improve the performance** of the application for <ins>local and global users</ins>. As part of this initiative, you must **monitor** the **application endpoint health** and **route traffic** to the most appropriate endpoint. For aiming this we should use amazon global accelerator.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Ground Station
 - AWS Ground Station is a fully managed service that lets you control satellite communications, process data, and scale your operations without having to worry about building or managing your own ground station infrastructure.
   
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon GuardDuty
 - Amazon GuardDuty is a **threat detection** service that **continuously monitors** your AWS accounts and workloads for **malicious activity** and delivers detailed security findings for visibility and remediation.
 - For implementing a threat detection service that continuously monitors malicious activities and **unauthorized behaviors** protect AWS account, workloads and data stored in Amazon S3, we use this service.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon IAM
 - Lists all the users in an account and reports on the status of the account details, including passwords, access keys, and multi-factor authentication (MFA) devices
@@ -553,27 +395,23 @@ The following table lists the main content domains and their weightings.<br>
     - delete
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Inspector
 - Inspector is an *automated security assessment* service that helps improve the security and compliance of applications deployed on AWS.
 - It uses an **agent** installed in EC2 instances and assesses applications for *vulnerabilities* and *deviations* from best practices.
 - Organization can assess applications for vulnerabilities and **deviations** *from best practice*.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Internet Gateway
 - Do not have **allow/deny** rules
 - It attached at the **VPC level**
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Kendra
 - Amazon Kendra is an intelligent enterprise search service that helps you **search across different content repositories** with built-in connectors.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Kinesis
 - It enables you to build custom applications that process or analyze **streaming data** for specialized needs.
@@ -588,7 +426,6 @@ The following table lists the main content domains and their weightings.<br>
     - Kinesis Data Firehose
     - Kinesis Data Analytics
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Lambda
 - Lambda functions can be invoked in response to **events**.
@@ -597,12 +434,10 @@ The following table lists the main content domains and their weightings.<br>
     - Consume events *from* a **queue**. (*Lambda & SQS*)
     - Run a function on a **schedule**. (*Lambda & CloudWatch*)
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Lex
 - Amazon Lex is a fully managed **artificial intelligence** (AI) service with advanced natural language models to design, build, test, and **deploy conversational interfaces in applications**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Lightsail
 - It provides developers compute, storage, and networking capacity and capabilities ** deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
@@ -612,7 +447,6 @@ The following table lists the main content domains and their weightings.<br>
     - **HA** storage
     - **Load balancing**
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Load Balancers
 - NLBs process traffic at the TCP level (layer 4)
@@ -621,7 +455,6 @@ The following table lists the main content domains and their weightings.<br>
 - Allows ddeploying of third-party firewall appliances on AWS, by connecting your on-premises firewall to your VPCs, and automatically routes traffic between them.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Lightsail
 - It provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
@@ -632,7 +465,6 @@ The following table lists the main content domains and their weightings.<br>
     - **Load balancing**
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Macie
 - It can be used to **detect users' personal credit card numbers** from data stored in Amazon **S3**.
@@ -643,7 +475,6 @@ The following table lists the main content domains and their weightings.<br>
 - Detect when large quantities of business-critical documents are shared internally and externally
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Machine Image (AMI)
 - It contains three catagories:
@@ -652,12 +483,10 @@ The following table lists the main content domains and their weightings.<br>
     - My AMIs
 - It stores the **information** that defines an **EC2 instance** such as the template for the *root volume*, *launch permissions* and *block device mappings*.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Managed Services
 - It manages the **daily operations** of your AWS infrastructure in alignment with **ITIL** processes and provides a **baseline integration** with IT Service Management (**ITSM**) tools such as the ServiceNow platform.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Neptune
 - Amazon Neptune is a fast, reliable, fully-managed **graph database** service that makes it easy to build and run applications that work with highly connected datasets.
@@ -666,7 +495,6 @@ The following table lists the main content domains and their weightings.<br>
 = Stateful, managed, network firewall and intrusion detection and prevention service for your VPC, allowing you to filter traffic at the perimeter of your VPC.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Organization
 - **One bill provided** per AWS organization
@@ -679,43 +507,36 @@ The following table lists the main content domains and their weightings.<br>
     -  "Setup consolidated billing between the accounts": company can reach volume discount thresholders sooner
 - Share pre-purchased Amazon EC2 resources across accounts
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Outposts
 - Run applications and workloads **on premises** using familiar AWS services, tools, and APIs. 
 - Outposts supports workloads and devices requiring **low latency access to on-premises systems**, local data processing, data residency, and application migration with local system interdependencies. 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Polly
 - Amazon Polly uses **deep learning technologies** to synthesize natural-sounding human speech, so you can **convert articles to speech**. With dozens of lifelike voices across a broad set of languages, use Amazon Polly to **build speech-activated applications**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Pricing Policies
 - pay-as-you-go
 - save when you reserve
 - pay less by using more
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Personalize
 - Amazon Personalize allows developers to quickly **build and deploy curated recommendations and intelligent user segmentation** at scale using **machine learning (ML)**. 
 - Because Amazon Personalize can be tailored to your individual needs, you can deliver the right customer experience at the right time and in the right place.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Personal Health Dashboard
 - It provides **alerts** and **remediation** *guidance* when AWS is experiencing events that may *impact* you.
 
-**[⬆ Back to top](#table-of-contents)**
 
 
 ### Amazon QuickSight
 - For dashboards and visualizations of insights from business data
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon RDS
 - Read replicas are used for **offloading read traffic** from the primary RDS database.
@@ -750,19 +571,16 @@ The following table lists the main content domains and their weightings.<br>
     - any additional storage of backup
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Rekognition
 - Amazon Rekognition offers pre-trained and customizable computer vision (CV) capabilities to **extract information and insights from your images and videos**.
 - Facial recognition, image labelling, text detection, video segment detection
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Redshift
 - Amazon Redshift uses SQL to **analyze structured and semi-structured data across data warehouses, operational databases, and data lakes**, using AWS-designed hardware and machine learning to deliver the best price performance at any scale.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Route 53
 - It has a **global scope**.
@@ -780,7 +598,6 @@ The following table lists the main content domains and their weightings.<br>
     - Failover
     - Geo-Location
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon S3
 -  Highly durable object storage service that provides high-level performance, security, scalability, and data availability
@@ -809,25 +626,21 @@ The following table lists the main content domains and their weightings.<br>
 - **Standard-IA** and **One Zone-IA** both have a minimum storage duration charge of **30** days
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Security Groups
 - Only `allow` rules, You cannot create `deny` rules.
 - A security group is **stateful** but this is not a rule type
 - You can create **inbound** and **outbound** traffic rules in a security group
 
-**[⬆ Back to top](#table-of-contents)** 
 
 ### AWS Security Hub
 - Cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardised format
 
-**[⬆ Back to top](#table-of-contents)** 
 
 ### AWS Scalability
 AWS Scaling **vertically**: increasing the instance size/CPU/RAM/DISK,...
 AWS Scaling **horizontally**: adding more EC2 instances, AWS Lambda adding concurrently executing functions, Adding read replicas to an Amazon RDS database
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon SNS
 - **Topics**: how you label and group different endpoints that you
@@ -836,7 +649,6 @@ send messages to
 - **Publisher**: the person/alarm/event that gives SNS the message
 that needs to be sent
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Simple Queue Service (SQS)
 - is a fully managed message queuing service that enables you to *decouple* and *scale microservices*, *distributed systems*, and *serverless applications*.
@@ -845,13 +657,11 @@ that needs to be sent
 - It is a message queue used for **decoupling** application components
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon SageMaker
 - That enables developers and data scientists to quickly and easily **build**, **train**, and **deploy** <ins>machine learning models</ins> at any scale. 
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Simple Notification Service (SNS)
 - It is a web service that makes it easy to **set up**, **operate**, and **send notifications** <ins>from the cloud</ins>.
@@ -860,7 +670,6 @@ that needs to be sent
 - Uses combination of publishers and subscribers
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Support Plans
 - **Basic**: Does not provide any <ins>*technical support*</ins>.
@@ -880,7 +689,6 @@ that needs to be sent
 - With the **Developer** plan you can open **unlimited** cases.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Shared Responsibility Model
 - Customers are responsible for *networking traffic protection*.
@@ -892,80 +700,67 @@ that needs to be sent
     - Patch Management: AWS -> Infra patches | Customer -> OS/Applications patches
     - Configuration Management: AWS -> Configuration of its infra devices | Customer -> Configuration their OS, Apps, DBs.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Shield
 - AWS Shield is a managed DDoS protection service that safeguards applications running on AWS.
 - Provides near **real-time visibility into attacks** on the company's resources
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Storage Gateway Volume Gateway
 - The volume gateway represents the family of gateways that *support* **block-based volumes**, previously referred to as gateway-cached and gateway-stored modes. it allows you to <ins>use block-based volumes on-premise</ins> that are then **asynchronously** backed up to Amazon **S3**.
     - **Stored Volumes mode**:  the *entire dataset is stored on-site* and is **asynchronously** backed up to S3 (EBS point-in-time snapshots). Snapshots are incremental and compressed
     - **Cached Volume mode**: the *entire dataset is stored on S3* and a cache of the *most frequently accessed* data is cached on-site.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Step Functions
 - It lets you **coordinate** *multiple AWS services* into **serverless workflows** so you can build and update apps quickly.
 - It keeps your Lambda functions free of additional logic by triggering and tracking each step of your application
 - It lets you build **visual** *workflows*.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Simple Workflow Service (SWF)
 - helps developers build, run, and scale background jobs that have parallel or sequential steps.
 - SWF is **not** a <ins>*visual*</ins> workflow tool.
 - It can assist with **coordinating tasks** across *distributed application* components.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Security Token Service (STS)
 - It's used for requesting **temporary** credentials.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Server Migration Service (SMS)
 - It's an **agentless** service which makes it easier and faster for you migrate on-premises workloads to AWS.
 - You can migrarte Virtual Machines from **VMware vSphere** and **Windows Hyper-V** to AWS with this sevice.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Service Catalog
 - It can be used to <ins>create and manage a selection of AWS services</ins> that are approved for use on AWS.
 - These IT services **can include everything** from virtual machine images, servers, software, and databases to complete multi-tier application architectures.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon S3 Transfer Acceleration
 - It enables fast, easy, and secure **transfers** of files **over long distances** between your client and your Amazon S3 bucket.
 - Uses the AWS backbone network and edge locations to **reduce latencies** from the end user to Amazon S3
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Snowball
 - It is a **petabyte-scale** <ins>data transport</ins> solution that uses devices designed to be secure to transfer large amounts of data **into and out of** the AWS Cloud.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Snowball Edge
 - Snowball Edge can do **local processing and edge-computing workloads** in addition to transferring data between your local environment and the AWS Cloud.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS Snowcone
 - AWS Snowcone is a small, rugged, and secure device offering **edge computing, data storage, and data transfer on-the-go**, in austere environment with **little or no connectivity**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Textract
 - Amazon Textract is a machine learning (ML) service that automatically **extracts text, handwriting, and data from scanned documents**.
 
-**[⬆ Back to top](#table-of-contents)**
 
 
 ### AWS Trusted Advisor
@@ -983,14 +778,12 @@ that needs to be sent
 - Can identiify any security group that is allowing unrestricted incoming SSH traffic
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS TCO Calculator
 - It can be used to **compare** the *cost of running* your applications in an *on-premises* or colocation environment to *AWS*.
 - "**Compute Hardware**" and "**Data Center Security**" should be included in a TCO analysis comparing on-premise to AWS Cloud.
 
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS WAF
 - Is a **web application firewall** that protects against **common exploits** that could compromise application availability, compromise security or consume excessive resources.
@@ -1001,25 +794,21 @@ that needs to be sent
 - Used by Cloudfront and API Gateway
 - Protects web apps by filtering, monitoring and **blocking any malicious HTTP/S traffic** travelling to the web application, and prevents any unauthorized data from leaving the app
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Amazon Workspaces
 - Amazon WorkSpaces is a managed, secure cloud-based virtual desktop infrastructure (VDI) that allows users to access their desktop applications and documents from anywhere, on any supported device.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### AWS X-Ray
 - It is a service that helps developers **analyze** and **debug** distributed applications.
 - Can see detailed information not only about the request and response, but also about calls that your application makes to downstream AWS resources, microservices, databases, and web APIs.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Cloud Computing
 - Cloud computing is the **on-demand** delivery of compute power.
 - With cloud computing you get to <ins>benefit from massive economies of scale</ins>.
 - With cloud computing you can <ins>increase your speed and agility</ins>.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Virtual Private Gateway
 - It's the VPN concentrator on the **Amazon side** of the <ins>VPN connection</ins>.
@@ -1027,7 +816,6 @@ that needs to be sent
 -  <ins>NAT devices and firewalls</ins> are **not** required for an *AWS managed VPN*.
 -  A **customer gateway** is a physical device or software application on **your side** of the VPN connection.
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### VPC peering connection
 - if you have **more than one AWS account**, you can **peer** the VPCs across those accounts to create a <ins>file sharing network</ins>.
@@ -1036,7 +824,6 @@ that needs to be sent
 - It enables you to route traffic via **private IP addresses** between *two* peered VPCs.
 - It enables the company to define its own IP address range, configure route tables and network gateways
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Five design principles for performance efficiency in the cloud
 1. Democratize advanced technologies
@@ -1045,7 +832,6 @@ that needs to be sent
 4. Experiment more often
 5. Mechanical sympathy
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Five design principles for cost optimization in the cloud
 1. Adopt a consumption model
@@ -1054,7 +840,6 @@ that needs to be sent
 4. Analyze and attribute expenditure
 5. Use managed services to reduce cost of ownership
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Five design principles for reliability in the cloud
 1. Test recovery procedures
@@ -1063,7 +848,6 @@ that needs to be sent
 4. Stop guessing capacity
 5. Manage change in automation
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Six design principles for security in the cloud
 1. Implement a strong identity foundation
@@ -1073,7 +857,6 @@ that needs to be sent
 5. Protect data in transit and at rest
 6. Prepare for security events
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Five pillars of the AWS Well-Architected Framework
 1. Operational excellence
@@ -1082,7 +865,6 @@ that needs to be sent
 4. Performance efficiency
 5. Cost optimization
 
-**[⬆ Back to top](#table-of-contents)**
 
 ### Six advantages of Amzon Cloud (Benefits)
 - Trade capital expense for variable expense.
@@ -1092,7 +874,6 @@ that needs to be sent
 - Stop spending money running and maintaining data centres.
 - Go global in minutes.
 
- **[⬆ Back to top](#table-of-contents)**
 
 ### Cloud Adoption Framework
 - **Business**
@@ -1111,7 +892,6 @@ The Platform perspective helps you build an enterprise-grade, scalable, hybrid c
 The Security perspective helps you achieve the confidentiality, integrity, and availability of your data and cloud workloads. Common stakeholders include chief information security officer (CISO), chief compliance officer (CCO), internal audit leaders, and security architects and engineers.
  
  
- **[⬆ Back to top](#table-of-contents)**
 
 ***
 ### Notes
@@ -1150,4 +930,3 @@ The Security perspective helps you achieve the confidentiality, integrity, and a
 - **Availability Zones** is one or more discrete data centers with redundant power, networking and connectivity
 - **Edge locations**: part of the AWS global infrastructure that provides low-latency access to content by storing copies of data close to end users. Edge locations are strategically placed in multiple geographic areas around the world and are optimized to deliver content quickly and efficiently to end users.
 
-**[⬆ Back to top](#table-of-contents)**
