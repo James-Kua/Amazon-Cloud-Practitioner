@@ -1,7 +1,7 @@
 {
   "name": "Amazon Cloud Practitioner Notes",
   "description": "Some self compiled notes for ACCP",
-  "domain": "https://accp-notes.pages.dev",
+  "domain": "https://amazon-cloud-practitioner-notes.pages.dev",
   "sidebar": [
     {
       "title": "Notes",
