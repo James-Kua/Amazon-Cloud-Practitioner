@@ -8,6 +8,12 @@
       "pages": [
         ["Notes", "/index"]
       ]
+    },
+    {
+      "title": "Links",
+      "pages": [
+        ["GitHub", "https://github.com/James-Kua/Amazon-Cloud-Practitioner"]
+      ]
     }
   ]
 }
